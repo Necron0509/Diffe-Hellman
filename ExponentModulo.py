@@ -38,7 +38,7 @@ def aliceS2print():
 def bobS2print():
     x = 24004202547683770419016829657526486559; y = 266372873561836896319324784586721523627; p= mod
 
-    print('Bob Final =', Euclidean(x, y, p), 'mod', p)
+    print('Bob Final =', timeComplex(x, y, p), 'mod', p)
 
 #initlizating the program and calling the functions 
 if __name__ == "__main__":
